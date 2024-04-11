@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //write a function that returns the number of vowels in a string
+        function countVowels(str){
+            const vowels = ["a","e","i","o","u"];
+            let count = 0;
+            for(let char of str.toLowerCase()){
+                if(vowels.includes(char)){
+                    count++;
+                }
+            }
+            return count;
+        }
+        document.write(countVowels('Hello, world!'));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

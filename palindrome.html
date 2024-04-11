@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palindrome</title>
+    <script>
+         function isPalindrome(str){
+            //const reverseStr = str.split("").reverse().join("");
+            //return str === reverseStr;
+            const len = string.length;
+            for(let i=0; i<len/2; i++){
+                if(str[i] !== str[len-1-i]){
+                    alert("It is not a palindrome")
+                }
+            }
+            alert("It is Palindrome")
+          }
+          const string = prompt("Enter the String");
+          const result = isPalindrome(string);
+          document.write(result);
+    </script>
+</head>
+<body>
+   
+</body>
+</html>

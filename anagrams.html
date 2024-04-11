@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Write a function that whether two strings are anagrams or not
+        //anagrams is word formed by rearranging the letters of another word.
+        function areAnagrams(str1,str2)
+        {
+            const sortedStr1 = str1.split("").sort().join("");
+            const sortedStr2 = str2.split("").sort().join("");
+            if(sortedStr1 === sortedStr2){
+                document.write("true");
+            }
+            else{
+                DocumentTimeline.write("false");
+            }
+        }
+        areAnagrams("indian" ,"dianni");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
